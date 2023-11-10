@@ -1,0 +1,14 @@
+p1 = input().split()
+a = int(p1[0])
+b = int(p1[1])
+c = float(p1[2])
+d = b*c
+
+p2 = input().split()
+e = int(p2[0])
+f = int(p2[1])
+g = float(p2[2])
+h = f*g
+
+j = h+d
+print("VALOR A PAGAR: R$ {:.2f}".format(j))
