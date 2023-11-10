@@ -1,0 +1,28 @@
+lista = []
+lista2 = []
+
+
+for i in range (15):
+    x = int(input())
+
+    if (x % 2 == 0):  
+        lista.append(x)
+
+        if (len(lista) == 5):
+            for i in range(5):
+                print(f'par[{i}] = {lista[i]}')
+            lista.clear()
+
+
+    elif (x % 2 == 1):
+        lista2.append(x)
+        if (len(lista2) == 5):
+            for i in range(5):
+                print(f'impar[{i}] = {lista2[i]}')
+            lista2.clear()
+
+for i in range(len(lista2)):
+    print(f'impar[{i}] = {lista2[i]}')
+
+for i in range(len(lista)):
+    print(f'par[{i}] = {lista[i]}')
