@@ -1,0 +1,8 @@
+n = int(input())
+x = n-1
+if 0<n<13:
+    while x > 1:
+        a = n * x
+        x-=1
+        n = a    
+print(a)
