@@ -1,0 +1,12 @@
+abcd = input().split()
+a = int(abcd[0])
+b = int(abcd[1])
+c = int(abcd[2])
+d = int(abcd[3])
+if b>c and d>a and c+d > a+b:
+    if a/2 == 1 or a/2 == 2 or a/2 == 3 or a/2 == 4:
+        print("Valores aceitos")
+    else:
+        print("Valores nao aceitos")
+else:
+    print("Valores nao aceitos")
