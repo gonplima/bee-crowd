@@ -1,0 +1,6 @@
+n = int(input())
+c = 1
+if 1<n<1000:
+    while n>=c:
+        print(c, c**2, c**3)
+        c+=1
