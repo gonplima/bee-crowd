@@ -1,0 +1,12 @@
+t = int(input())
+lista = []*60
+a = 0
+b = 1
+for i in range (0, 61):
+    lista.append(a)
+    s = a+b
+    a = b
+    b = s
+for j in range(t):
+    c = int(input())
+    print(f'Fib({c}) = {lista[c]}')
