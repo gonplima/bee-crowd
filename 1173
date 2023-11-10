@@ -1,0 +1,10 @@
+n = int(input())
+
+lista = [0]*10
+c = 1
+for i in range (len(lista)):
+    lista[i]=c*n
+    b = lista[i]
+    lista.append(b)
+    n=n*2
+    print("N[{}] = {}".format(i,b))
