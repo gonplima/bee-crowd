@@ -1,0 +1,13 @@
+n = int(input())
+m=int(n/60)
+h = int(m/60)
+if 1<=n<60:
+    s = n
+    print("0:0:{}". format(s))
+if n>=60:
+    s = n-m*60
+    if  m>=60:
+        m = m-h*60
+        print("{}:{}:{}". format(h,m,s))
+    else:
+        print("0:{}:{}". format(m,s))
