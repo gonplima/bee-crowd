@@ -1,0 +1,11 @@
+n = int(input())
+con = 1
+
+while con <= n:
+    val = input().split()
+    a = float(val[0])
+    b = float(val[1])
+    c = float(val[2])
+    med = (a * 2 + b * 3 + c * 5) / 10
+    print("{:.1f}".format(med))
+    con += 1
