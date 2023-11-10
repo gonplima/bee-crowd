@@ -1,0 +1,9 @@
+x = int(input())
+c = 1
+while c<=x:
+    a1 = c 
+    a2 = c**2
+    a3 = c**3
+    print(a1, a2, a3)
+    print(a1, a2+1, a3+1)
+    c+=1
