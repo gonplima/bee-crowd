@@ -1,0 +1,16 @@
+l = int(input())
+s = str(input())
+matriz = []
+soma = 0
+for i in range(12):
+    h = []
+    for j in range(12):
+        n = float(input())
+        h.append(n)
+    matriz.append(h)
+for k in range(12):
+    soma+= matriz[l][k]
+if s == 'S':
+    print(soma)
+if s == 'M':
+    print(soma/12)
