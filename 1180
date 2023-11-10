@@ -1,0 +1,10 @@
+n=int(input())
+x=[]
+c=input().split()
+for b in range(n):
+	k=int(c[b])
+	x.append(k)
+min=min(x)
+pos=x.index(min)
+print(f'Menor valor: {min}')
+print(f'Posicao: {pos}')
