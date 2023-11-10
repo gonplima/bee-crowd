@@ -1,0 +1,40 @@
+dNum = input().split()
+dia = str(dNum[0])
+Num = int(dNum[1])
+HMS = input().split()
+h = int(HMS[0])
+k = str(HMS[1])
+m = int(HMS[2])
+k = str(HMS[3])
+s = int(HMS[4])
+
+dNum2 = input().split()
+dia2 = str(dNum2[0])
+Num2 = int(dNum2[1])
+HMS2 = input().split()
+h2 = int(HMS2[0])
+k2 = str(HMS2[1])
+m2 = int(HMS2[2])
+k2 = str(HMS2[3])
+s2 = int(HMS2[4])
+
+z = s2-s
+y = m2 - m
+x = h2 - h
+w = Num2 - Num
+if z<0:
+    z+=60
+    y-=1
+elif z==60:
+    y+=1
+if y<0:
+    y+=60
+    x-=1
+elif y == 60:
+    x+=1
+if x==24:
+    w+=1
+if x<0:
+    x+=24
+    w-=1
+print("{} dia(s)\n{} hora(s)\n{} minuto(s)\n{} segundo(s)". format(w,x,y,z)) 
