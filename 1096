@@ -1,0 +1,6 @@
+x=[1, 3, 5, 7, 9]
+for I in x:
+    J = 7 
+    while (4<J<8):
+        print("I="+str(I), "J="+str(J))
+        J-=1
