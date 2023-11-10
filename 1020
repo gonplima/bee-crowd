@@ -1,0 +1,7 @@
+age = int(input())
+y = int(age/365)
+y2=age-y*365
+m= int(y2/30)
+m2 = y2-m*30
+d = m2
+print("{} ano(s)\n{} mes(es)\n{} dia(s)". format(y,m,d))
