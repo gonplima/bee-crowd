@@ -1,0 +1,6 @@
+x = float(input())
+lista = []
+for i in range(0,100):
+    lista.append(x)
+    print('N[{}] = {:.4f}'. format(i,lista[i]))
+    x = x/2
