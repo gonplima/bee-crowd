@@ -1,0 +1,25 @@
+i = 1
+j = 7
+while 8>j>4:
+    print("I={} J={}". format(i, j))
+    print("I={} J={}". format(i, j-1))
+    print("I={} J={}". format(i, j-2))
+    break
+while 10>j>6:
+    i+=2
+    j+=2
+    print("I={} J={}". format(i, j))
+    print("I={} J={}". format(i, j-1))
+    print("I={} J={}". format(i, j-2))
+while 12>j>8:
+    i+=2
+    j+=2
+    print("I={} J={}". format(i, j))
+    print("I={} J={}". format(i, j-1))
+    print("I={} J={}". format(i, j-2))
+while 14>j>10:
+    i+=2
+    j+=2
+    print("I={} J={}". format(i, j))
+    print("I={} J={}". format(i, j-1))
+    print("I={} J={}". format(i, j-2))
