@@ -1,0 +1,13 @@
+a = [0]*10
+b = [0]*10
+z = 0
+for i in range(10):
+    x = int(input())
+    if x <= 0:
+        a[i] = 1
+        z += 1
+    else:
+        a[z] = x
+        z+=1
+for j in range(0,10):
+    print("X[{}] = {}". format(j,a[j]))
